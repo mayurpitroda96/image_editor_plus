@@ -558,17 +558,17 @@ class _SingleImageEditorState extends State<SingleImageEditor> {
           ),
         ),
         bottomNavigationBar: Container(
-			// color: Colors.black45,
+          // color: Colors.black45,
           alignment: Alignment.bottomCenter,
           height: 86 + MediaQuery.of(context).padding.bottom,
           padding: const EdgeInsets.symmetric(vertical: 16),
-            decoration: const BoxDecoration(
-				color: Colors.black87,
-				shape: BoxShape.rectangle,
+          decoration: const BoxDecoration(
+            color: Colors.black87,
+            shape: BoxShape.rectangle,
             //   boxShadow: [
             //     BoxShadow(blurRadius: 1),
             //   ],
-            ),
+          ),
           child: SafeArea(
             child: ListView(
               scrollDirection: Axis.horizontal,
@@ -956,7 +956,7 @@ class BottomButton extends StatelessWidget {
         children: [
           Icon(
             icon,
-			color: Colors.white,
+            color: Colors.white,
           ),
           const SizedBox(height: 8),
           Text(
